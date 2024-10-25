@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #d17804, #4a0c3a); /* Gradient background */
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #b4790b; /* orange */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content button {
+    color: black;
+    padding: 10px 15px;
+    text-align: left;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.dropdown-content button:hover {
+    background-color: #b4790b; /* Hover color for dropdown buttons */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41; /* Change this if needed */
+}
+
+/* Footer styling */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    font-size: 18px;
+}

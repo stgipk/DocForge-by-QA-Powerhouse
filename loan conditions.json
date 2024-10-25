@@ -1,0 +1,356 @@
+{
+    "CS-01": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-02": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-04B": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-04C": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-05B": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-05C": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-06": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-07": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-09": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-10": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-11": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-12": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-13": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-14": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-15": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-16": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-18": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "CS-20": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "FL-STAMP": {
+        "applies_to": [
+            "collateral",
+            "damaged_property",
+            "borrower"
+        ],
+        "applies_to_relation": ["borrower"]
+    },
+    "MI-FLD": {
+        "applies_to": [
+            "collateral",
+            "damaged_property",
+            "relocation"
+        ],
+        "applies_to_relation": []
+    },
+    "MI-HAZ": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "MI-HUL": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "OC-MML": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": [],
+        "real_estate_ind": true
+    },
+    "OC-OMH": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "RE-LNW": {
+        "applies_to": [
+            "collateral"
+        ],
+        "applies_to_relation": []
+    },
+    "LP-LWR": {
+        "applies_to": [
+            "damaged_property"
+        ],
+        "applies_to_relation": []
+    },
+    "OC-MFR": {
+        "applies_to": [
+            "damaged_property"
+        ],
+        "applies_to_relation": []
+    },
+    "OC-MPB": {
+        "applies_to": [
+            "damaged_property"
+        ],
+        "applies_to_relation": []
+    },
+    "OC-INT": {
+        "applies_to": [
+            "damaged_property"
+        ],
+        "applies_to_relation": []
+    },
+    "RE-601": {
+        "applies_to": [
+            "damaged_property"
+        ],
+        "applies_to_relation": []
+    },
+    "RE-STD": {
+        "applies_to": [
+            "damaged_property"
+        ],
+        "applies_to_relation": []
+    },
+    "RE-ACR": {
+        "applies_to": [
+            "damaged_property"
+        ],
+        "applies_to_relation": []
+    },
+    "REFI-LENDNM": {
+        "applies_to": [
+            "damaged_property"
+        ],
+        "applies_to_relation": []
+    },
+    "ULP-CUSTRE": {
+        "applies_to": [
+            "damaged_property"
+        ],
+        "applies_to_relation": []
+    },
+    "ULP-CUSTPP": {
+        "applies_to": [
+            "damaged_property"
+        ],
+        "applies_to_relation": []
+    },
+    "DC-LFR": {
+        "applies_to": [
+            "borrower"
+        ],
+        "applies_to_relation": ["borrower"]
+    },
+    "D-ID": {
+        "applies_to": [
+            "borrower",
+            "guarantor"
+        ],
+        "applies_to_relation": [
+            "borrower",
+            "guarantor",
+            "collateral_owner",
+            "owner",
+            "representative",
+            "trustee",
+            "co_borrower",
+            "minority_owner",
+            "non_owner_signer",
+            "additional_signer"
+        ]
+    },
+    "GU-01": {
+        "applies_to": [
+            "guarantor"
+        ],
+        "applies_to_relation": ["guarantor"]
+    },
+    "GU-02": {
+        "applies_to": [
+            "guarantor"
+        ],
+        "applies_to_relation": ["guarantor"]
+    },
+    "LMOD": {
+        "applies_to": [
+            "borrower"
+        ],
+        "applies_to_relation": ["borrower"]
+    },
+    "OC-DLA": {
+        "applies_to": [
+            "borrower"
+        ],
+        "applies_to_relation": ["borrower"]
+    },
+    "OC-RPS": {
+        "applies_to": [
+            "borrower"
+        ],
+        "applies_to_relation": ["borrower"]
+    },
+    "ULP-MOD": {
+        "applies_to": [
+            "borrower"
+        ],
+        "applies_to_relation": ["borrower"]
+    },
+    "OC-BDR": {
+        "applies_to": [
+            "borrower",
+            "guarantor"
+        ],
+        "applies_to_relation": [
+            "borrower",
+            "co_borrower",
+            "guarantor",
+            "collateral_owner",
+            "owner",
+            "minority_owner",
+            "additional_signer",
+            "non_owner_signer"
+        ]
+    },
+    "OC-LLE": {
+        "applies_to": [
+            "borrower",
+            "guarantor"
+        ],
+        "applies_to_relation": [
+            "borrower",
+            "co_borrower",
+            "guarantor",
+            "collateral_owner",
+            "owner",
+            "minority_owner",
+            "additional_signer",
+            "non_owner_signer"
+        ]
+    },
+    "OC-PTR": {
+        "applies_to": [
+            "borrower",
+            "guarantor"
+        ],
+        "applies_to_relation": [
+        "borrower",
+        "co_borrower",
+        "guarantor",
+        "collateral_owner",
+        "owner",
+        "minority_owner",
+        "additional_signer",
+        "non_owner_signer"
+    ]
+    },
+    "OC-TRUST": {
+        "applies_to": [
+            "borrower"
+        ],
+        "applies_to_relation": [
+        "borrower",
+        "co_borrower",
+        "guarantor",
+        "collateral_owner",
+        "owner",
+        "minority_owner",
+        "additional_signer",
+        "non_owner_signer"
+    ]
+    }
+}
+Collapse
+
+
+
+
+
+Message Shubham Gupta
+
+
+
+
+
+
+
+
+
