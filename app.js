@@ -32,7 +32,7 @@ if (!fs.existsSync('uploads')) {
 }
 
 // Endpoint to generate documents
-app.get('/generate-document', async (req, res) => {
+app.get('/api/generate-document', async (req, res) => {
     const { type, format } = req.query;
     
 
@@ -175,7 +175,7 @@ app.get('/generate-document', async (req, res) => {
 });
 
 // Endpoint to duplicate documents
-app.get('/duplicate-document', (req, res) => {
+app.get('/api/duplicate-document', (req, res) => {
     const { format } = req.query;
 
     let filePath;

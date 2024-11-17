@@ -2,7 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.js",
+      "src": "api/generate-document.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/duplicate-document.js",
       "use": "@vercel/node"
     }
   ]
