@@ -226,17 +226,17 @@ const morgan = require('morgan');
 // HTTP request logging
 app.use(morgan('combined', { stream: { write: (message) => logger.info(message.trim()) } }));
 
-app.get('/generate-document', (req, res) => {
-    logger.info('Generate Document endpoint hit');
-    try {
-        // Code to generate a document
-        res.send("Document generated successfully.");
-        logger.info('Document generated successfully');
-    } catch (error) {
-        logger.error(`Error generating document: ${error.message}`);
-        res.status(500).send("Error generating document");
-    }
-});
+// app.get('/generate-document', (req, res) => {
+//     logger.info('Generate Document endpoint hit');
+//     try {
+//         // Code to generate a document
+//         res.send("Document generated successfully.");
+//         logger.info('Document generated successfully');
+//     } catch (error) {
+//         logger.error(`Error generating document: ${error.message}`);
+//         res.status(500).send("Error generating document");
+//     }
+// });                   
 
 const isProduction = process.env.NODE_ENV === 'production';
 
