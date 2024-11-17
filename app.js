@@ -239,4 +239,10 @@ app.get('/generate-document', (req, res) => {
 
 const isProduction = process.env.NODE_ENV === 'production';
 
+<<<<<<< HEAD
 logger.level = isProduction ? 'error' : 'debug';
+=======
+logger.level = isProduction ? 'error' : 'debug';
+
+
+>>>>>>> 8b137a17503c8f8ad8f781b2dd1d185546bb3ef0
