@@ -201,3 +201,42 @@ app.get('/duplicate-document', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+const winston = require('winston');
+
+// Configure winston logging
+const logger = winston.createLogger({
+    level: 'info',
+    format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.printf(({ timestamp, level, message }) => {
+            return `[${timestamp}] ${level.toUpperCase()}: ${message}`;
+        })
+    ),
+    transports: [
+        new winston.transports.Console(),
+        // Optionally, log to a file
+        new winston.transports.File({ filename: 'app.log' })
+    ]
+});
+
+const morgan = require('morgan');
+
+// HTTP request logging
+app.use(morgan('combined', { stream: { write: (message) => logger.info(message.trim()) } }));
+
+app.get('/generate-document', (req, res) => {
+    logger.info('Generate Document endpoint hit');
+    try {
+        // Code to generate a document
+        res.send("Document generated successfully.");
+        logger.info('Document generated successfully');
+    } catch (error) {
+        logger.error(`Error generating document: ${error.message}`);
+        res.status(500).send("Error generating document");
+    }
+});
+
+const isProduction = process.env.NODE_ENV === 'production';
+
+logger.level = isProduction ? 'error' : 'debug';
