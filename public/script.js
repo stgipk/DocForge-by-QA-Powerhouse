@@ -2,7 +2,7 @@ function generateDocument(type, format) {
     // Replace with your server endpoint
     fetch(`/generate-document?type=${type}&format=${format}`)
         .then(response => {
-            if (!response.ok) {
+            if (!response.ok) {           
                 throw new Error('Network response was not ok');
             }
             return response.blob();
