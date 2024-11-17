@@ -1,8 +1,9 @@
 function generateDocument(type, format) {
-    // Replace with your Vercel serverless function endpoint
+    // Replace with your Vercel serverless function endpoint            
+
     fetch(`/api/generate-document?type=${type}&format=${format}`)
         .then(response => {
-            if (!response.ok) {           
+            if (!response.ok) {          
                 throw new Error('Network response was not ok');
             }
             return response.blob();
@@ -20,6 +21,8 @@ function generateDocument(type, format) {
             console.error("Error generating document:", error);
         });
 }
+
+
 
 function duplicateDocument(format) {
     // Replace with your Vercel serverless function endpoint

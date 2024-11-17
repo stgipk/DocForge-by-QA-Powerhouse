@@ -2,12 +2,30 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/generate-document.js",
+      "src": "public/**/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/**/*.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/duplicate-document.js",
+      "src": "api/generate-document.js",
       "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/api/generate-document",
+      "dest": "/api/generate-document.js"
     }
   ]
 }

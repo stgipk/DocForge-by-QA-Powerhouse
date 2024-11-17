@@ -12,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@vercel/node": "^3.2.24",
     "docx": "^9.0.2",
     "excel4node": "^1.8.2",
     "exceljs": "^4.4.0",

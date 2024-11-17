@@ -6,7 +6,7 @@ const fs = require('fs');
 module.exports = async (req, res) => {
     const { type, format } = req.query;
     let filePath;
-
+    
     try {
         switch (type) {
             case 'unique':
